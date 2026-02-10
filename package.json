@@ -1,0 +1,32 @@
+{
+  "name": "rise-shine-bakery",
+  "version": "1.0.0",
+  "description": "Artisan Bakery Collective - Online ordering with custom cakes, delivery scheduling, subscriptions, and loyalty",
+  "scripts": {
+    "ng": "ng",
+    "start": "npm run set-env && ng serve",
+    "build": "npm run set-env && ng build",
+    "set-env": "node scripts/set-env.js",
+    "test": "ng test"
+  },
+  "dependencies": {
+    "@angular/animations": "^19.0.0",
+    "@angular/common": "^19.0.0",
+    "@angular/core": "^19.0.0",
+    "@angular/forms": "^19.0.0",
+    "@angular/platform-browser": "^19.0.0",
+    "@angular/router": "^19.0.0",
+    "@ionic/angular": "^8.0.0",
+    "@neondatabase/neon-js": "^0.1.0-beta.22",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.15.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^19.0.0",
+    "@angular/cli": "^19.0.0",
+    "@angular/compiler-cli": "^19.0.0",
+    "tailwindcss": "^3.4.0",
+    "typescript": "~5.6.0"
+  }
+}
